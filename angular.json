@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "kio-startup-festival": {
+    "ki-startup-festival": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/kio-startup-festival",
+            "outputPath": "dist/ki-startup-festival/",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -33,6 +33,8 @@
           },
           "configurations": {
             "production": {
+              "baseHref": "/ki-startup-festival/",
+              "deployUrl": "/ki-startup-festival/",
               "budgets": [
                 {
                   "type": "initial",
@@ -59,10 +61,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "kio-startup-festival:build:production"
+              "buildTarget": "ki-startup-festival:build:production"
             },
             "development": {
-              "buildTarget": "kio-startup-festival:build:development"
+              "buildTarget": "ki-startup-festival:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -88,6 +90,14 @@
               "src/styles.css"
             ],
             "scripts": []
+          }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "buildTarget": "ki-startup-festival:build:production",
+            "repo": "git@github.com:ZaKI-D/ki-startup-festival.git",
+            "baseHref": "/ki-startup-festival/"
           }
         }
       }
