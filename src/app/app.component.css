@@ -1,0 +1,9 @@
+
+
+#preloader{
+
+  &.fadeOut{
+    user-select: none;
+    animation: fadeOut 1s;
+  }
+}

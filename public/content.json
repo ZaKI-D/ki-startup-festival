@@ -1,0 +1,65 @@
+{
+  "speakers": [
+    {
+      "id": "garyArmstrong",
+      "firstname": "Gary",
+      "lastname": "Armstrong",
+      "job": "Ceo of Confer",
+      "topics": [
+        "Dealing with Difficult People"
+      ],
+      "social": {
+        "fb": "https://www.facebook.com/gary.armstrong.confer",
+        "website": "https://www.confer.com"
+      }
+    }
+  ],
+  "schedule": [
+    {
+      "time": "10:30",
+      "title": "Ankommen",
+      "room": "Großer Saal EG"
+    },
+    {
+      "time": "11:00",
+      "title": "Eröffnung (Welcome, Logistic, etc..)",
+      "room": "Großer Saal EG"
+    },
+    {
+      "time": "11:15",
+      "title": "Erster Speaker / Speakerin",
+      "speakerId": "garyArmstrong",
+      "room": "Kleiner Saal EG"
+    },
+    {
+      "time": "11:35",
+      "title": "Fragen",
+      "room": "Kleiner Saal EG"
+    },
+    {
+      "time": "11:45",
+      "title": "Breakout Sessions (1-3): Themen: von den Teilnehmern?, wer moderiert?"
+    },
+    {
+      "time": "12:30",
+      "title": "Plenary",
+      "room": "Großer Saal EG"
+    },
+    {
+      "time": "12:40",
+      "title": "Start 1. Führung entlang der Demo-Inseln, Ausströmen der Teilnehmer"
+    },
+    {
+      "time": "13:30",
+      "title": "Start 2. Führung entlang der Demo-Inseln"
+    },
+    {
+      "time": "14:00",
+      "title": "Führung inHaus-zentrum"
+    },
+    {
+      "time": "15:00",
+      "title": "Ende"
+    }
+  ]
+}
