@@ -1,16 +1,36 @@
 {
   "speakers": [
     {
-      "id": "garyArmstrong",
-      "firstname": "Gary",
-      "lastname": "Armstrong",
-      "job": "Ceo of Confer",
+      "id": "jonasDoese",
+      "enabled": true,
+      "firstname": "Jonas",
+      "lastname": "Doese, M.Sc.",
+      "img": "jonasDoese.png",
+      "job": "Doktorand",
+      "company": "Universität Duisburg-Essen",
       "topics": [
-        "Dealing with Difficult People"
+        "Machine Learning",
+        "Synthetische Daten"
       ],
       "social": {
-        "fb": "https://www.facebook.com/gary.armstrong.confer",
-        "website": "https://www.confer.com"
+        "linkedin": "https://www.linkedin.com/in/jonas-doese-0b98bb147",
+        "website": "https://vs.uni-due.de/person/doese/"
+      }
+    },
+    {
+      "id": "wolfgangGroeting",
+      "enabled": true,
+      "firstname": "Wolfgang",
+      "lastname": "Groeting",
+      "job": "Head of Innovation Center",
+      "img": "wolfgangGroeting.jpg",
+      "company": "Fraunhofer-inHaus-Zentrum",
+      "topics": [
+        "Connected Healthcare", "Digitalisierung und Technik", "Startups und Kooperationen", "Innovationsmanagement", "Technikakzeptanz", "Datenschutz und Post-Privacy", "SmartHome-Technologien"
+      ],
+      "social": {
+        "linkedin": "https://www.linkedin.com/in/wolfganggroeting/",
+        "website": "https://www.inhaus.fraunhofer.de/"
       }
     }
   ],
@@ -18,7 +38,8 @@
     {
       "time": "10:30",
       "title": "Ankommen",
-      "room": "Großer Saal EG"
+      "room": "Großer Saal EG",
+      "speakerId": "wolfgangGroeting"
     },
     {
       "time": "11:00",
@@ -61,5 +82,6 @@
       "time": "15:00",
       "title": "Ende"
     }
-  ]
+  ],
+  "eventDate": "2024-09-24T10:00:00.000Z"
 }
