@@ -39,7 +39,8 @@
       "time": "10:30",
       "title": "Ankommen",
       "room": "Großer Saal EG",
-      "speakerId": "wolfgangGroeting"
+      "speakerId": "wolfgangGroeting",
+      "description": "TODO"
     },
     {
       "time": "11:00",
@@ -83,5 +84,26 @@
       "title": "Ende"
     }
   ],
-  "eventDate": "2024-09-24T10:00:00.000Z"
+  "eventDate": "2024-09-25T10:00:00.000Z",
+  "startTime": "10:00:00",
+  "endTime": "15:00:00",
+  "thisUrl": "https://zaki-d.github.io/ki-startup-festival/",
+  "zakidUrl": "https://www.duisburg-5-standorteprogramm.de/technologiequartier-wedau-nord/zakid",
+  "companies": [
+    {
+      "name": "Fraunhofer-inHaus-Zentrum",
+      "url": "https://www.inhaus.fraunhofer.de/",
+      "img": "fraunhofer.png"
+    },
+    {
+      "name": "Universität Duisburg-Essen",
+      "url": "https://www.uni-due.de/",
+      "img": "ude.png"
+    },
+    {
+      "name": "Krohne Messtechnik",
+      "url": "https://de.krohne.com/de",
+      "img": "krohne.png"
+    }
+  ]
 }
