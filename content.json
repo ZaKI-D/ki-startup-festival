@@ -1,20 +1,44 @@
 {
   "speakers": [
     {
-      "id": "jonasDoese",
+      "id": "hannesRothe",
       "enabled": true,
-      "firstname": "Jonas",
-      "lastname": "Doese, M.Sc.",
-      "img": "jonasDoese.png",
-      "job": "Doktorand",
-      "company": "Universität Duisburg-Essen",
+      "firstname": "Prof. Dr. Hannes",
+      "lastname": "Rothe",
+      "img": "hannesRothe.png",
+      "job": "Professor for Information Systems",
+      "company": "Universität Duisburg-Essen | Place Beyond Bytes",
       "topics": [
-        "Machine Learning",
-        "Synthetische Daten"
+        "Startup Support",
+        "Digital Innovation und Transformation",
+        "Bio- und HealthTech Startups",
+        "Datenmanagement in Online Communities"
       ],
       "social": {
-        "linkedin": "https://www.linkedin.com/in/jonas-doese-0b98bb147",
-        "website": "https://vs.uni-due.de/person/doese/"
+        "linkedin": "https://www.linkedin.com/in/hannes-rothe",
+        "website": "http://hannesrothe.de",
+        "instagram": "https://www.instagram.com/cptnftr/"
+      }
+    },
+    {
+      "id": "saschaDevigne",
+      "enabled": true,
+      "firstname": "Sascha",
+      "lastname": "Devigne",
+      "img": "saschaDevigne.jpg",
+      "job": "Chefredakteur",
+      "company": "Studio47",
+      "topics": [
+        "Medienmanagement",
+        "Ausbildung und Weiterbildung",
+        "Publizistik und Journalismus",
+        "Automatisierte News-Produktion",
+        "Sprachsynthese und Textgenerierung"
+      ],
+      "social": {
+        "linkedin": "https://www.linkedin.com/in/sascha-devigne-6ba308257",
+        "website": "https://www.studio47.de/botcast.html",
+        "instagram": "https://www.instagram.com/cptnftr/"
       }
     },
     {
@@ -32,10 +56,28 @@
         "linkedin": "https://www.linkedin.com/in/wolfganggroeting/",
         "website": "https://www.inhaus.fraunhofer.de/"
       }
+    },
+    {
+      "id": "jonasDoese",
+      "enabled": true,
+      "firstname": "Jonas",
+      "lastname": "Doese, M.Sc.",
+      "img": "jonasDoese.png",
+      "job": "Doktorand",
+      "company": "Universität Duisburg-Essen",
+      "topics": [
+        "Machine Learning",
+        "Synthetische Daten"
+      ],
+      "social": {
+        "linkedin": "https://www.linkedin.com/in/jonas-doese-0b98bb147",
+        "website": "https://vs.uni-due.de/person/doese/"
+      }
     }
   ],
   "schedule": [
     {
+      "enabled": false,
       "time": "10:30",
       "title": "Ankommen",
       "room": "Großer Saal EG",
@@ -43,43 +85,52 @@
       "description": "TODO"
     },
     {
+      "enabled": false,
       "time": "11:00",
       "title": "Eröffnung (Welcome, Logistic, etc..)",
       "room": "Großer Saal EG"
     },
     {
+      "enabled": false,
       "time": "11:15",
       "title": "Erster Speaker / Speakerin",
       "speakerId": "garyArmstrong",
       "room": "Kleiner Saal EG"
     },
     {
+      "enabled": false,
       "time": "11:35",
       "title": "Fragen",
       "room": "Kleiner Saal EG"
     },
     {
+      "enabled": false,
       "time": "11:45",
       "title": "Breakout Sessions (1-3): Themen: von den Teilnehmern?, wer moderiert?"
     },
     {
+      "enabled": false,
       "time": "12:30",
       "title": "Plenary",
       "room": "Großer Saal EG"
     },
     {
+      "enabled": false,
       "time": "12:40",
       "title": "Start 1. Führung entlang der Demo-Inseln, Ausströmen der Teilnehmer"
     },
     {
+      "enabled": false,
       "time": "13:30",
       "title": "Start 2. Führung entlang der Demo-Inseln"
     },
     {
+      "enabled": false,
       "time": "14:00",
       "title": "Führung inHaus-zentrum"
     },
     {
+      "enabled": false,
       "time": "15:00",
       "title": "Ende"
     }
@@ -89,6 +140,16 @@
   "endTime": "15:00:00",
   "thisUrl": "https://zaki-d.github.io/ki-startup-festival/",
   "zakidUrl": "https://www.duisburg-5-standorteprogramm.de/technologiequartier-wedau-nord/zakid",
+  "imprintUrl": "https://www.uni-due.de/de/impressum.shtml",
+  "ticketUrl": "#",
+  "zakidMail": "jonas.doese@uni-due.de",
+  "address": {
+    "name": "Fraunhofer-inHaus-Zentrum",
+    "street": "Forsthausweg",
+    "number": "1",
+    "zip": "47057",
+    "city": "Duisburg"
+  },
   "companies": [
     {
       "name": "Fraunhofer-inHaus-Zentrum",
