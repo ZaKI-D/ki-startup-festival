@@ -43,7 +43,7 @@
     },
     {
       "id": "wolfgangGroeting",
-      "enabled": true,
+      "enabled": false,
       "firstname": "Wolfgang",
       "lastname": "Groeting",
       "job": "Head of Innovation Center",
@@ -59,7 +59,7 @@
     },
     {
       "id": "jonasDoese",
-      "enabled": true,
+      "enabled": false,
       "firstname": "Jonas",
       "lastname": "Doese, M.Sc.",
       "img": "jonasDoese.png",
