@@ -154,13 +154,18 @@
   "companies": [
     {
       "name": "Fraunhofer-inHaus-Zentrum",
-      "url": "https://www.inhaus.fraunhofer.de/",
+      "url": "https://www.inhaus.fraunhofer.de",
       "img": "fraunhofer.png"
     },
     {
       "name": "Universität Duisburg-Essen",
-      "url": "https://www.uni-due.de/",
+      "url": "https://www.uni-due.de",
       "img": "ude.png"
+    },
+    {
+      "name": "FACE@RUB",
+      "url": "https://face.rub.de",
+      "img": "rub.png"
     }
   ]
 }
