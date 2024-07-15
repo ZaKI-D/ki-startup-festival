@@ -75,6 +75,7 @@
       }
     }
   ],
+  "speakerModeMoreTba": true,
   "schedule": [
     {
       "enabled": false,
