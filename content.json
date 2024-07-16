@@ -16,8 +16,8 @@
       ],
       "social": {
         "linkedin": "https://www.linkedin.com/in/hannes-rothe",
-        "website": "http://hannesrothe.de",
-        "instagram": "https://www.instagram.com/cptnftr/"
+        "instagram": "https://www.instagram.com/cptnftr/",
+        "website": "http://hannesrothe.de"
       }
     },
     {
@@ -37,8 +37,8 @@
       ],
       "social": {
         "linkedin": "https://www.linkedin.com/in/sascha-devigne-6ba308257",
-        "website": "https://www.studio47.de/botcast.html",
-        "instagram": "https://www.instagram.com/cptnftr/"
+        "instagram": "https://www.instagram.com/cptnftr/",
+        "website": "https://www.studio47.de/botcast.html"
       }
     },
     {
@@ -153,16 +153,19 @@
   },
   "companies": [
     {
+      "enabled": true,
       "name": "Fraunhofer-inHaus-Zentrum",
       "url": "https://www.inhaus.fraunhofer.de",
       "img": "fraunhofer.png"
     },
     {
+      "enabled": true,
       "name": "Universität Duisburg-Essen",
       "url": "https://www.uni-due.de",
       "img": "ude.png"
     },
     {
+      "enabled": true,
       "name": "FACE@RUB",
       "url": "https://face.rub.de",
       "img": "rub.png"
