@@ -154,6 +154,12 @@
   "companies": [
     {
       "enabled": true,
+      "name": "ruhrHUB",
+      "url": "https://ruhrhub.de/",
+      "img": "ruhrHUB_Logo_negativ.png"
+    },
+    {
+      "enabled": true,
       "name": "Fraunhofer-inHaus-Zentrum",
       "url": "https://www.inhaus.fraunhofer.de",
       "img": "fraunhofer.png"
