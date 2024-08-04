@@ -1,6 +1,22 @@
 {
   "speakers": [
     {
+      "id": "alesiaKunts",
+      "enabled": true,
+      "firstname": "Alesia",
+      "lastname": "Kunts",
+      "img": "alesiaKunts.png",
+      "job": "Gründerin und CEO",
+      "company": "LearnSlice",
+      "topics": [
+        "AI development"
+      ],
+      "social": {
+        "linkedin": "https://www.linkedin.com/in/alesiakunts",
+        "website": "https://learnslice.com"
+      }
+    },
+    {
       "id": "hannesRothe",
       "enabled": true,
       "firstname": "Prof. Dr. Hannes",
@@ -18,6 +34,25 @@
         "linkedin": "https://www.linkedin.com/in/hannes-rothe",
         "instagram": "https://www.instagram.com/cptnftr/",
         "website": "http://hannesrothe.de"
+      }
+    },
+    {
+      "id": "jaquelinePeter",
+      "enabled": true,
+      "firstname": "Jaqueline",
+      "lastname": "Peter",
+      "img": "jaquelinePeter.png",
+      "job": "Doktorandin",
+      "company": "Institut für Baubetrieb und Baumanagement",
+      "topics": [
+        "Blockchain-Technologie",
+        "Chatbasierte KI",
+        "Digital Education Consultant"
+      ],
+      "social": {
+        "linkedin": "https://www.linkedin.com/in/sascha-devigne-6ba308257",
+        "instagram": "https://www.instagram.com/cptnftr/",
+        "website": "https://www.studio47.de/botcast.html"
       }
     },
     {
