@@ -77,6 +77,22 @@
       }
     },
     {
+      "id": "uweGruenefeld",
+      "enabled": true,
+      "firstname": "Dr. Uwe",
+      "lastname": "Grünefeld",
+      "img": "uweGruenefeld.png",
+      "job": "Gründer und CTO",
+      "company": "GenerIO.ai",
+      "topics": [
+      ],
+      "social": {
+        "linkedin": "https://www.linkedin.com/in/uwe-gruenefeld-70a9a5146/",
+        "x": "https://x.com/UweGruenefeld",
+        "website": ["https://generio.ai", "https://uwe-gruenefeld.de"]
+      }
+    },
+    {
       "id": "wolfgangGroeting",
       "enabled": false,
       "firstname": "Wolfgang",
@@ -110,7 +126,7 @@
       }
     }
   ],
-  "speakerModeMoreTba": true,
+  "speakerModeMoreTba": false,
   "schedule": [
     {
       "enabled": false,
@@ -210,6 +226,18 @@
       "name": "FACE@RUB",
       "url": "https://face.rub.de",
       "img": "rub.png"
+    },
+    {
+      "enabled": true,
+      "name": "GenerIO.ai",
+      "url": "https://generio.ai/",
+      "img": "logo-generio.png"
+    },
+    {
+      "enabled": true,
+      "name": "LearnSlice",
+      "url": "https://learnslice.com/",
+      "img": "learnSlice.png"
     }
   ]
 }
