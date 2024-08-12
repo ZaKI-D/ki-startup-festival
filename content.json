@@ -223,6 +223,12 @@
     },
     {
       "enabled": true,
+      "name": "Krohne Messtechnik",
+      "url": "https://de.krohne.com/de",
+      "img": "krohne.png"
+    },
+    {
+      "enabled": true,
       "name": "FACE@RUB",
       "url": "https://face.rub.de",
       "img": "rub.png"
@@ -238,6 +244,26 @@
       "name": "LearnSlice",
       "url": "https://learnslice.com/",
       "img": "learnSlice.png"
+    }
+  ],
+  "poweredBy": [
+    {
+      "enabled": true,
+      "name": "BMBF",
+      "url": "https://www.bmbf.de",
+      "img": "bmbf.png"
+    },
+    {
+      "enabled": true,
+      "name": "5-StandorteProgramm",
+      "url": "https://www.duisburg-5-standorteprogramm.de/das-fuenf-standorteprogramm",
+      "img": "MWIDE-Logo-5-StandorteProgramm-rgb.png"
+    },
+    {
+      "enabled": true,
+      "name": "Stadt Duisburg",
+      "url": "https://www.duisburg.de/",
+      "img": "logo_duisburg.png"
     }
   ]
 }
