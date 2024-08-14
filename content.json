@@ -223,6 +223,12 @@
     },
     {
       "enabled": true,
+      "name": "Duisburg Business & Innovation",
+      "url": "https://www.duisburg-business.de/",
+      "img": "dbi-logo.png"
+    },
+    {
+      "enabled": true,
       "name": "Krohne Messtechnik",
       "url": "https://de.krohne.com/de",
       "img": "krohne.png"
