@@ -1,19 +1,20 @@
 {
   "speakers": [
     {
-      "id": "alesiaKunts",
+
+      "id": "danielaKhaitinaTizniti",
       "enabled": true,
-      "firstname": "Alesia",
-      "lastname": "Kunts",
-      "img": "alesiaKunts.png",
-      "job": "Gründerin und CEO",
-      "company": "LearnSlice",
+      "firstname": "Daniela",
+      "lastname": "Khaitina-Tizniti",
+      "img": "daniela.png",
+      "job": "Moderation | Projektmanagerin Innovation & Start-Ups",
+      "company": "Duisburg Business & Innovation GmbH",
       "topics": [
-        "AI development"
+
       ],
       "social": {
-        "linkedin": "https://www.linkedin.com/in/alesiakunts",
-        "website": "https://learnslice.com"
+        "linkedin": "https://www.linkedin.com/in/daniela-khaitina-tizniti/",
+        "website": "https://duisburg-business.de"
       }
     },
     {
@@ -37,22 +38,19 @@
       }
     },
     {
-      "id": "jaquelinePeter",
+      "id": "alesiaKunts",
       "enabled": true,
-      "firstname": "Jaqueline",
-      "lastname": "Peter",
-      "img": "jaquelinePeter.png",
-      "job": "Doktorandin",
-      "company": "Institut für Baubetrieb und Baumanagement",
+      "firstname": "Alesia",
+      "lastname": "Kunts",
+      "img": "alesiaKunts.png",
+      "job": "Gründerin und CEO",
+      "company": "LearnSlice",
       "topics": [
-        "Blockchain-Technologie",
-        "Chatbasierte KI",
-        "Digital Education Consultant"
+        "AI development"
       ],
       "social": {
-        "linkedin": "https://www.linkedin.com/in/sascha-devigne-6ba308257",
-        "instagram": "https://www.instagram.com/cptnftr/",
-        "website": "https://www.studio47.de/botcast.html"
+        "linkedin": "https://www.linkedin.com/in/alesiakunts",
+        "website": "https://learnslice.com"
       }
     },
     {
@@ -69,6 +67,25 @@
         "Publizistik und Journalismus",
         "Automatisierte News-Produktion",
         "Sprachsynthese und Textgenerierung"
+      ],
+      "social": {
+        "linkedin": "https://www.linkedin.com/in/sascha-devigne-6ba308257",
+        "instagram": "https://www.instagram.com/cptnftr/",
+        "website": "https://www.studio47.de/botcast.html"
+      }
+    },
+    {
+      "id": "jaquelinePeter",
+      "enabled": true,
+      "firstname": "Jaqueline",
+      "lastname": "Peter",
+      "img": "jaquelinePeter.png",
+      "job": "Doktorandin",
+      "company": "Institut für Baubetrieb und Baumanagement",
+      "topics": [
+        "Blockchain-Technologie",
+        "Chatbasierte KI",
+        "Digital Education Consultant"
       ],
       "social": {
         "linkedin": "https://www.linkedin.com/in/sascha-devigne-6ba308257",
