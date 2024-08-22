@@ -264,6 +264,12 @@
     },
     {
       "enabled": true,
+      "name": "DVV",
+      "url": "https://dvv.de/",
+      "img": "DVV_Logo.png"
+    },
+    {
+      "enabled": true,
       "name": "LearnSlice",
       "url": "https://learnslice.com/",
       "img": "learnSlice.png"
