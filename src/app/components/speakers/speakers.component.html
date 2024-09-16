@@ -1,0 +1,70 @@
+<!-- Our Speakings Area Start -->
+<section class="our-speaker-area bg-img bg-gradient-overlay section-padding-100-60"
+         style="background-image: url(img/bg-img/3.jpg);">
+  <div class="container">
+    <div class="row">
+      <!-- Heading -->
+      <div class="col-12">
+        <div class="section-heading text-center wow fadeInUp" data-wow-delay="300ms">
+          <p>Wer erwartet euch?</p>
+          <h4>Unsere Speaker</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <!-- Single Speaker Area -->
+
+      <ng-container *ngFor="let speaker of content.speakers">
+        @if (speaker.enabled) {
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="single-speaker-area bg-gradient-overlay-2 wow fadeInUp" data-wow-delay="300ms">
+              <!-- Thumb -->
+              <div class="speaker-single-thumb">
+                @if (speaker.img) {
+                  <img [src]="'speaker/'+speaker.img" alt="">
+                } @else {
+                  <img src="speaker/default.png" alt="">
+                }
+              </div>
+              <!-- Social Info -->
+              <div class="social-info">
+                <ng-container *ngIf="getSocials(speaker) as socials">
+                  <ng-container *ngFor="let social of socials">
+                    <a [href]="social.url" target="_blank" [title]="social.title"><i
+                      [class]="'zmdi '+social.icon"></i></a>
+                  </ng-container>
+                </ng-container>
+                <!--                  <a href="#"><i class="zmdi zmdi-facebook"></i></a>-->
+                <!--                  <a href="#"><i class="zmdi zmdi-instagram"></i></a>-->
+                <!--                  <a href="#"><i class="zmdi zmdi-twitter"></i></a>-->
+                <!--                  <a href="#"><i class="zmdi zmdi-linkedin"></i></a>-->
+              </div>
+              <!-- Info -->
+              <div class="speaker-info">
+                <h5>{{ speaker.firstname }} {{ speaker.lastname }}</h5>
+                <p>{{ speaker.job }}</p>
+                <p>{{ speaker.company }}</p>
+              </div>
+            </div>
+          </div>
+        }
+      </ng-container>
+      <ng-container *ngIf="content.speakerModeMoreTba">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="single-speaker-area bg-gradient-overlay-2 wow fadeInUp" data-wow-delay="300ms">
+            <!-- Thumb -->
+            <div class="speaker-single-thumb">
+              <img src="speaker/default.png" alt="">
+            </div>
+            <!-- Info -->
+            <div class="speaker-info">
+              <h5>...bald mehr!</h5>
+            </div>
+          </div>
+        </div>
+      </ng-container>
+    </div>
+  </div>
+</section>
+<!-- Our Speakings Area End -->

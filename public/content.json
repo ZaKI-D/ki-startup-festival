@@ -1,65 +1,297 @@
 {
   "speakers": [
     {
-      "id": "garyArmstrong",
-      "firstname": "Gary",
-      "lastname": "Armstrong",
-      "job": "Ceo of Confer",
+
+      "id": "danielaKhaitinaTizniti",
+      "enabled": true,
+      "firstname": "Daniela",
+      "lastname": "Khaitina-Tizniti",
+      "img": "daniela.png",
+      "job": "Moderation | Projektmanagerin Innovation & Start-Ups",
+      "company": "Duisburg Business & Innovation GmbH",
       "topics": [
-        "Dealing with Difficult People"
+
       ],
       "social": {
-        "fb": "https://www.facebook.com/gary.armstrong.confer",
-        "website": "https://www.confer.com"
+        "linkedin": "https://www.linkedin.com/in/daniela-khaitina-tizniti/",
+        "website": "https://duisburg-business.de"
+      }
+    },
+    {
+      "id": "hannesRothe",
+      "enabled": true,
+      "firstname": "Prof. Dr. Hannes",
+      "lastname": "Rothe",
+      "img": "hannesRothe.png",
+      "job": "Professor for Information Systems",
+      "company": "Universität Duisburg-Essen | Place Beyond Bytes",
+      "topics": [
+        "Startup Support",
+        "Digital Innovation und Transformation",
+        "Bio- und HealthTech Startups",
+        "Datenmanagement in Online Communities"
+      ],
+      "social": {
+        "linkedin": "https://www.linkedin.com/in/hannes-rothe",
+        "instagram": "https://www.instagram.com/cptnftr/",
+        "website": "http://hannesrothe.de"
+      }
+    },
+    {
+      "id": "alesiaKunts",
+      "enabled": true,
+      "firstname": "Alesia",
+      "lastname": "Kunts",
+      "img": "alesiaKunts.png",
+      "job": "Gründerin und CEO",
+      "company": "LearnSlice",
+      "topics": [
+        "AI development"
+      ],
+      "social": {
+        "linkedin": "https://www.linkedin.com/in/alesiakunts",
+        "website": "https://learnslice.com"
+      }
+    },
+    {
+      "id": "saschaDevigne",
+      "enabled": true,
+      "firstname": "Sascha",
+      "lastname": "Devigne",
+      "img": "saschaDevigne.jpg",
+      "job": "Chefredakteur",
+      "company": "Studio47",
+      "topics": [
+        "Medienmanagement",
+        "Ausbildung und Weiterbildung",
+        "Publizistik und Journalismus",
+        "Automatisierte News-Produktion",
+        "Sprachsynthese und Textgenerierung"
+      ],
+      "social": {
+        "linkedin": "https://www.linkedin.com/in/sascha-devigne-6ba308257",
+        "instagram": "https://www.instagram.com/cptnftr/",
+        "website": "https://www.studio47.de/botcast.html"
+      }
+    },
+    {
+      "id": "jaquelinePeter",
+      "enabled": true,
+      "firstname": "Jaqueline",
+      "lastname": "Peter",
+      "img": "jaquelinePeter.png",
+      "job": "Doktorandin",
+      "company": "Institut für Baubetrieb und Baumanagement",
+      "topics": [
+        "Blockchain-Technologie",
+        "Chatbasierte KI",
+        "Digital Education Consultant"
+      ],
+      "social": {
+        "linkedin": "https://www.linkedin.com/in/jacqueline-peter-256875125",
+        "website": "https://www.uni-due.de/baubetrieb/"
+      }
+    },
+    {
+      "id": "uweGruenefeld",
+      "enabled": true,
+      "firstname": "Dr. Uwe",
+      "lastname": "Grünefeld",
+      "img": "uweGruenefeld.png",
+      "job": "Gründer und CTO",
+      "company": "GenerIO.ai",
+      "topics": [
+      ],
+      "social": {
+        "linkedin": "https://www.linkedin.com/in/uwe-gruenefeld-70a9a5146/",
+        "x": "https://x.com/UweGruenefeld",
+        "website": ["https://generio.ai", "https://uwe-gruenefeld.de"]
+      }
+    },
+    {
+      "id": "wolfgangGroeting",
+      "enabled": false,
+      "firstname": "Wolfgang",
+      "lastname": "Groeting",
+      "job": "Head of Innovation Center",
+      "img": "wolfgangGroeting.jpg",
+      "company": "Fraunhofer-inHaus-Zentrum",
+      "topics": [
+        "Connected Healthcare", "Digitalisierung und Technik", "Startups und Kooperationen", "Innovationsmanagement", "Technikakzeptanz", "Datenschutz und Post-Privacy", "SmartHome-Technologien"
+      ],
+      "social": {
+        "linkedin": "https://www.linkedin.com/in/wolfganggroeting/",
+        "website": "https://www.inhaus.fraunhofer.de/"
+      }
+    },
+    {
+      "id": "jonasDoese",
+      "enabled": false,
+      "firstname": "Jonas",
+      "lastname": "Doese, M.Sc.",
+      "img": "jonasDoese.png",
+      "job": "Doktorand",
+      "company": "Universität Duisburg-Essen",
+      "topics": [
+        "Machine Learning",
+        "Synthetische Daten"
+      ],
+      "social": {
+        "linkedin": "https://www.linkedin.com/in/jonas-doese-0b98bb147",
+        "website": "https://vs.uni-due.de/person/doese/"
       }
     }
   ],
+  "speakerModeMoreTba": false,
   "schedule": [
     {
+      "enabled": false,
       "time": "10:30",
       "title": "Ankommen",
-      "room": "Großer Saal EG"
+      "room": "Großer Saal EG",
+      "speakerId": "wolfgangGroeting",
+      "description": "TODO"
     },
     {
+      "enabled": false,
       "time": "11:00",
       "title": "Eröffnung (Welcome, Logistic, etc..)",
       "room": "Großer Saal EG"
     },
     {
+      "enabled": false,
       "time": "11:15",
       "title": "Erster Speaker / Speakerin",
       "speakerId": "garyArmstrong",
       "room": "Kleiner Saal EG"
     },
     {
+      "enabled": false,
       "time": "11:35",
       "title": "Fragen",
       "room": "Kleiner Saal EG"
     },
     {
+      "enabled": false,
       "time": "11:45",
       "title": "Breakout Sessions (1-3): Themen: von den Teilnehmern?, wer moderiert?"
     },
     {
+      "enabled": false,
       "time": "12:30",
       "title": "Plenary",
       "room": "Großer Saal EG"
     },
     {
+      "enabled": false,
       "time": "12:40",
       "title": "Start 1. Führung entlang der Demo-Inseln, Ausströmen der Teilnehmer"
     },
     {
+      "enabled": false,
       "time": "13:30",
       "title": "Start 2. Führung entlang der Demo-Inseln"
     },
     {
+      "enabled": false,
       "time": "14:00",
       "title": "Führung inHaus-zentrum"
     },
     {
+      "enabled": false,
       "time": "15:00",
       "title": "Ende"
+    }
+  ],
+  "eventDate": "2024-09-25T10:00:00.000Z",
+  "startTime": "10:00:00",
+  "endTime": "15:00:00",
+  "thisUrl": "https://zaki-d.github.io/ki-startup-festival/",
+  "zakidUrl": "https://www.duisburg-5-standorteprogramm.de/technologiequartier-wedau-nord/zakid",
+  "imprintUrl": "https://www.uni-due.de/de/impressum.shtml",
+  "ticketUrl": "https://www.eventbrite.de/e/ki-startup-festival-tickets-957312717107",
+  "zakidMail": "jonas.doese@uni-due.de",
+  "address": {
+    "name": "Fraunhofer-inHaus-Zentrum",
+    "street": "Forsthausweg",
+    "number": "1",
+    "zip": "47057",
+    "city": "Duisburg"
+  },
+  "companies": [
+    {
+      "enabled": true,
+      "name": "ruhrHUB",
+      "url": "https://ruhrhub.de/",
+      "img": "ruhrHUB_Logo_negativ.png"
+    },
+    {
+      "enabled": true,
+      "name": "Fraunhofer-inHaus-Zentrum",
+      "url": "https://www.inhaus.fraunhofer.de",
+      "img": "fraunhofer.png"
+    },
+    {
+      "enabled": true,
+      "name": "Universität Duisburg-Essen",
+      "url": "https://www.uni-due.de",
+      "img": "ude.png"
+    },
+    {
+      "enabled": true,
+      "name": "Duisburg Business & Innovation",
+      "url": "https://www.duisburg-business.de/",
+      "img": "dbi-logo.png"
+    },
+    {
+      "enabled": true,
+      "name": "Krohne Messtechnik",
+      "url": "https://de.krohne.com/de",
+      "img": "krohne.png"
+    },
+    {
+      "enabled": true,
+      "name": "FACE@RUB",
+      "url": "https://face.rub.de",
+      "img": "rub.png"
+    },
+    {
+      "enabled": true,
+      "name": "GenerIO.ai",
+      "url": "https://generio.ai/",
+      "img": "logo-generio.png"
+    },
+    {
+      "enabled": true,
+      "name": "DVV",
+      "url": "https://dvv.de/",
+      "img": "DVV_Logo.png"
+    },
+    {
+      "enabled": true,
+      "name": "LearnSlice",
+      "url": "https://learnslice.com/",
+      "img": "learnSlice.png"
+    }
+  ],
+  "poweredBy": [
+    {
+      "enabled": true,
+      "name": "BMBF",
+      "url": "https://www.bmbf.de",
+      "img": "bmbf.png"
+    },
+    {
+      "enabled": true,
+      "name": "5-StandorteProgramm",
+      "url": "https://www.duisburg-5-standorteprogramm.de/das-fuenf-standorteprogramm",
+      "img": "MWIDE-Logo-5-StandorteProgramm-rgb.png"
+    },
+    {
+      "enabled": true,
+      "name": "Stadt Duisburg",
+      "url": "https://www.duisburg.de/",
+      "img": "logo_duisburg.png"
     }
   ]
 }

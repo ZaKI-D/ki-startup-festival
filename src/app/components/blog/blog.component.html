@@ -1,0 +1,39 @@
+
+<!-- Our Sponsor And Client Area Start -->
+<section class="our-blog-area bg-img bg-gradient-overlay section-padding-100-60"
+         style="background-image: url(img/bg-img/17.jpg);">
+  <div class="container">
+    <div class="row">
+      <!-- Heading -->
+      <div class="col-12">
+        <div class="section-heading-2 text-center wow fadeInUp" data-wow-delay="300ms">
+<!--          <p>Institutionen</p>-->
+          <h4>Gefördert durch</h4>
+        </div>
+      </div>
+    </div>
+
+    <!--    <div class="row">-->
+    <!--      <div class="col-12">-->
+    <!-- Our Sponsor area -->
+
+    <div class="d-flex flex-row flex-wrap row our-sponsor-area justify-content-center" style="margin-left: unset !important;">
+      <ng-container *ngFor="let company of content.poweredBy">
+        @if (company.enabled) {
+          <!-- Single Sponsor -->
+          <div class="col-lg-12 col-md-12 col-sm-12 single-sponsor wow fadeInUp" data-wow-delay="300ms">
+
+            <a [href]="company.url" target="_blank" [title]="company.name">
+              <img [src]="'companies/'+company.img" [alt]="company.name">
+            </a>
+          </div>
+        }
+      </ng-container>
+
+    </div>
+  </div>
+
+  <!--    </div>-->
+  <!--  </div>-->
+</section>
+<!-- Our Sponsor And Client Area End -->

@@ -1,0 +1,105 @@
+<!-- Our Schedule Area Start -->
+<section class="our-schedule-area section-padding-100">
+  <div class="container">
+    <div class="row">
+      <!-- Heading -->
+      <div class="col-12">
+        <div class="section-heading-2 text-center wow fadeInUp" data-wow-delay="300ms">
+          <p>Ablauf</p>
+          <h4>Der Zeitplan</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <div class="schedule-tab">
+          <!-- Nav Tabs -->
+          <ul class="nav nav-tabs wow fadeInUp" data-wow-delay="300ms" id="conferScheduleTab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="" data-toggle="tab"
+                 role="tab">Mittwoch<br><span>25. September 2024</span></a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Tab Content -->
+        <div class="tab-content" id="conferScheduleTabContent">
+          <div class="tab-pane fade show active" id="step-one" role="tabpanel">
+            <!-- Single Tab Content -->
+            <div class="single-tab-content">
+              <div class="row">
+                <div class="col-12">
+
+                  <ng-container *ngIf="schedule.length == 0">
+                    <div
+                      class="single-schedule-area d-flex flex-column wow fadeInUp"
+                      data-wow-delay="300ms">
+                      <div class="d-flex flex-row w-100">
+                        <!-- Single Schedule Thumb and Info -->
+                        <div class="single-schedule-tumb-info d-flex align-items-center">
+                          <!-- Single Schedule Thumb -->
+                          <div class="single-schedule-tumb">
+                            <img src="img/bg-img/10.jpg" alt="" class="appt-img">
+                          </div>
+                          <!-- Single Schedule Info -->
+                          <div class="single-schedule-info">
+                            <h6>Noch bekannt zu geben</h6>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </ng-container>
+
+                  <ng-container *ngFor="let appt of schedule; index as i">
+                    <ng-container *ngVar="getSpeaker(appt.speakerId) as speaker">
+                      <!-- Single Schedule Area -->
+                      <div
+                        class="single-schedule-area d-flex flex-column wow fadeInUp"
+                        data-wow-delay="300ms">
+                        <div class="d-flex flex-row w-100">
+                          <!-- Single Schedule Thumb and Info -->
+                          <div class="single-schedule-tumb-info d-flex align-items-center">
+                            <!-- Single Schedule Thumb -->
+                            <div class="single-schedule-tumb">
+                              @if (speaker) {
+                                @if (speaker.img) {
+                                  <img [src]="'speaker/'+speaker.img" alt="" class="appt-img">
+                                } @else {
+                                  <img src="speaker/default.png" alt="" class="appt-img">
+                                }
+                              } @else {
+                                <img src="img/bg-img/10.jpg" alt="" class="appt-img">
+                              }
+                            </div>
+                            <!-- Single Schedule Info -->
+                            <div class="single-schedule-info">
+                              <h6>{{ appt.title }}</h6>
+                              <p *ngIf="speaker">by
+                                <span>{{ speaker.firstname }} {{ speaker.lastname }}</span> / {{ speaker.job }}</p>
+                            </div>
+                          </div>
+                          <!-- Single Schedule Info -->
+                          <div class="schedule-time-place">
+                            <p *ngIf="appt.time"><i class="zmdi zmdi-time"></i> {{ appt.time }}</p>
+                            <p *ngIf="appt.room"><i class="zmdi zmdi-map"></i> {{ appt.room }}</p>
+                          </div>
+                          <!-- Schedule Btn -->
+                          <button *ngIf="appt.description" class="btn confer-btn" (click)="toggle(i)">Mehr Info</button>
+                        </div>
+                        <div class="description pt-3 hidden" [id]="'info_'+i">
+                          {{ appt.description }}
+                        </div>
+                      </div>
+                    </ng-container>
+                  </ng-container>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Our Schedule Area End -->

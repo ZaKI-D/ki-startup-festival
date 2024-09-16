@@ -1,0 +1,18 @@
+.image-credits {
+  color: #9293bc;
+}
+
+.image-credits a{
+  color: #9293bc;
+  font-size: 14px;
+  margin-bottom: 15px;
+  display: inline-block;
+  -webkit-transition-duration: 500ms;
+  -o-transition-duration: 500ms;
+  transition-duration: 500ms;
+}
+
+
+.image-credits a:focus, .image-credits a:hover {
+  color: #ffffff !important;
+}

@@ -1,0 +1,7 @@
+.single-sponsor{
+  padding: 4px;
+}
+
+.single-sponsor a img {
+  max-height: 140px !important;
+}

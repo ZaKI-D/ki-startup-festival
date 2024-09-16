@@ -1,0 +1,21 @@
+.appt-img {
+  width: 90px;
+  max-width: 90px !important;
+  height: 90px;
+  max-height: 90px !important;
+  object-fit: cover;
+}
+
+
+.description{
+  color: #9293bc;
+  transition: height, min-height;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  height: 100px;
+}
+
+.description.hidden{
+  height: 0;
+  overflow: hidden;
+}
