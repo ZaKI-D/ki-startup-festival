@@ -145,62 +145,60 @@
   "speakerModeMoreTba": false,
   "schedule": [
     {
-      "enabled": false,
-      "time": "10:30",
-      "title": "Ankommen",
-      "room": "Großer Saal EG",
-      "speakerId": "wolfgangGroeting",
-      "description": "TODO"
-    },
-    {
-      "enabled": false,
+      "enabled": true,
       "time": "11:00",
-      "title": "Eröffnung (Welcome, Logistic, etc..)",
-      "room": "Großer Saal EG"
+      "title": "Eröffnung",
+      "speakerId": "danielaKhaitinaTizniti",
+      "description": "Daniela von der Duisburg Business & Innovation wird Sie durch den Tag begleiten."
     },
     {
-      "enabled": false,
+      "enabled": true,
       "time": "11:15",
-      "title": "Erster Speaker / Speakerin",
-      "speakerId": "garyArmstrong",
-      "room": "Kleiner Saal EG"
+      "title": "Startup Vortrag GenerIO.ai",
+      "speakerId": "uweGruenefeld",
+      "description": "Uwe erklärt, wie er mit seinem Unternehmen einfache Skizzen in detaillierte 3D-Modelle umsetzt."
     },
     {
-      "enabled": false,
-      "time": "11:35",
-      "title": "Fragen",
-      "room": "Kleiner Saal EG"
-    },
-    {
-      "enabled": false,
+      "enabled": true,
       "time": "11:45",
-      "title": "Breakout Sessions (1-3): Themen: von den Teilnehmern?, wer moderiert?"
+      "title": "Startup Vortrag LearnSlice",
+      "speakerId": "alesiaKunts",
+      "description": "Alesias Unternehmen verwandelt komplexe Themen mithilfe von Gamification in spannende Quizformate."
     },
     {
-      "enabled": false,
-      "time": "12:30",
-      "title": "Plenary",
-      "room": "Großer Saal EG"
+      "enabled": true,
+      "time": "12:15",
+      "title": "Startup Vortrag RUB",
+      "speakerId": "jaquelinePeter",
+      "description": "Die Female Academic Entrepreneurs der Ruhr-Universität Bochum unterstützen potenzielle Gründerinnen und bieten ihnen ein umfangreiches Netzwerk."
     },
     {
-      "enabled": false,
-      "time": "12:40",
-      "title": "Start 1. Führung entlang der Demo-Inseln, Ausströmen der Teilnehmer"
+      "enabled": true,
+      "time": "13:00",
+      "title": "Vortrag Hannes Rothe",
+      "speakerId": "hannesRothe",
+      "description": "Der Leiter des Digital Entrepreneurship Hubs präsentiert die Möglichkeiten seiner Initiativen und lädt zu einer Reise durch Place Beyond Bytes ein."
     },
     {
-      "enabled": false,
+      "enabled": true,
       "time": "13:30",
-      "title": "Start 2. Führung entlang der Demo-Inseln"
+      "img": "bg-img/dis.jpg",
+      "title": "Podiumsdiskussion",
+      "description": "Unsere Speaker beantworten Ihre Fragen zum Thema Gründung im Kontext einer sich ständig wandelnden Welt der künstlichen Intelligenz."
     },
     {
-      "enabled": false,
-      "time": "14:00",
-      "title": "Führung inHaus-zentrum"
+      "enabled": true,
+      "time": "13:00",
+      "title": "Vortrag Studio47",
+      "speakerId": "saschaDevigne",
+      "description": "Sascha Devigne präsentiert Ihnen das Fernsehstudio der Zukunft und erklärt, wie KI die journalistische Arbeit bereits verändert hat."
     },
     {
-      "enabled": false,
+      "enabled": true,
       "time": "15:00",
-      "title": "Ende"
+      "title": "Networking",
+      "img": "bg-img/10.jpg",
+      "description": "Kommen Sie ins Gespräch mit unseren Speakern und Ausstellern"
     }
   ],
   "eventDate": "2024-09-25T10:00:00.000Z",
