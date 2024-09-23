@@ -261,6 +261,12 @@
     },
     {
       "enabled": true,
+      "name": "Bot-World",
+      "url": "https://bot-world.de",
+      "img": "bot-world.png"
+    },
+    {
+      "enabled": true,
       "name": "DVV",
       "url": "https://dvv.de/",
       "img": "DVV_Logo.png"
